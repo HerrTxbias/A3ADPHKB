@@ -28,5 +28,10 @@ class CfgMissions
             briefingName = $STR_A3AE_maps_Altis_mapname;
             directory = QCPATHTO(Antistasi_Altis.Altis);
         };
+        class Antistasi_Tanoa
+        {
+            briefingName = $STR_A3AE_maps_Tanoa_mapname;
+            directory = QCPATHTO(Antistasi_Tanoa.Tanoa);
+        };
     };
 };

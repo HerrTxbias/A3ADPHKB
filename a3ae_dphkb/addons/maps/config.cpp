@@ -15,7 +15,7 @@ class CfgPatches {
 };
 
 class A3A { //global overwrite or inclussion of new navGrids or map info
-    #include "mapInfoGlobal.hpp"
+    // #include "mapInfoGlobal.hpp"
     #include "NavGrid.hpp"
 };
 
@@ -27,11 +27,6 @@ class CfgMissions
         {
             briefingName = $STR_A3AE_maps_Altis_mapname;
             directory = QCPATHTO(Antistasi_Altis.Altis);
-        };
-        class Antistasi_Other_Altis
-        {
-            briefingName = $STR_A3AE_maps_Other_Altis_mapname;
-            directory = QCPATHTO(Antistasi_Other_Altis.Altis);
         };
     };
 };

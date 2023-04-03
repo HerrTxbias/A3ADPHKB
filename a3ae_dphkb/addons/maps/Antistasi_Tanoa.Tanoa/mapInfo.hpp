@@ -1,20 +1,20 @@
-class altis {
+class tanoa {
 	population[] = {
-		{"Therisa",154},{"Zaros",371},{"Poliakko",136},{"Katalaki",95},{"Alikampos",115},{"Neochori",309},{"Stavros",122},{"Lakka",173},{"AgiosDionysios",84},{"Panochori",264},{"Topolia",33},{"Ekali",9},{"Pyrgos",531},{"Orino",45},{"Neri",242},{"Kore",133},{"Kavala",660},{"Aggelochori",395},{"Koroni",32},{"Gravia",291},{"Anthrakia",143},{"Syrta",151},{"Negades",120},{"Galati",151},{"Telos",84},{"Charkia",246},{"Athira",342},{"Dorida",168},{"Ifestiona",48},{"Chalkeia",214},{"AgiosKonstantinos",39},{"Abdera",89},{"Panagia",91},{"Nifi",24},{"Rodopoli",212},{"Kalithea",36},{"Selakano",120},{"Frini",69},{"AgiosPetros",11},{"Feres",92},{"AgiaTriada",8},{"Paros",396},{"Kalochori",189},{"Oreokastro",63},{"Ioannina",48},{"Delfinaki",29},{"Sofia",179},{"Molos",188}
+		{"Lami01",277},{"Lifou01",350},{"Lobaka01",64},{"LaFoa01",38},{"Savaka01",33},{"Regina01",303},{"Katkoula01",413},{"Moddergat01",195},{"Losi01",83},{"Tanouka01",380},{"Tobakoro01",45},{"Georgetown01",347},{"Kotomo01",160},{"Rautake01",113},{"Harcourt01",325},{"Buawa01",44},{"SaintJulien01",353},{"Balavu01",189},{"Namuvaka01",45},{"Vagalala01",174},{"Imone01",31},{"Leqa01",45},{"Blerick01",71},{"Yanukka01",189},{"OuaOue01",200},{"Cerebu01",22},{"Laikoro01",29},{"Saioko01",46},{"Belfort01",240},{"Oumere01",333},{"Muaceba01",18},{"Nicolet01",224},{"Lailai01",23},{"Doodstil01",101},{"Tavu01",178},{"Lijnhaven01",610},{"Nani01",19},{"PetitNicolet01",135},{"PortBoise01",28},{"SaintPaul01",136},{"Nasua01",60},{"Savu01",184},{"Murarua01",258},{"Momea01",159},{"LaRochelle01",532},{"Koumac01",51},{"Taga01",31},{"Buabua01",27},{"Penelo01",189},{"Vatukoula01",15},{"Nandai01",130},{"Tuvanaka01",303},{"Rereki01",43},{"Ovau01",226},{"IndPort01",420},{"Ba01",106}
 	};
-	disabledTowns[] = {}; //no towns that need to be disabled
+	disabledTowns[] = {"Lakatoro01","Galili01","Sosovu01","Ipota01"};
 	antennas[] = {
-		{14451.5,16338,0.000354767},{15346.7,15894,-3.8147e-005},{16085.1,16998,7.08781},{17856.7,11734.1,0.863045},{9496.2,19318.5,0.601898},{9222.87,19249.1,0.0348206},{20944.9,19280.9,0.201118},{20642.7,20107.7,0.236603},{18709.3,10222.5,0.716034},{6840.97,16163.4,0.0137177},{19319,9716.22,0.442627},{19351.9,9693.04,0.639175},{10317.3,8704.65,0.117233},{8268.76,10051.6,0.0100708},{4583.61,15401.1,0.262543},{4555.65,15383.2,0.0271606},{4263.82,20664.1,-0.0102234},{26274.6,22188.1,0.0139847},{26455.4,22166.3,0.0223694}
+		{2682.94,2592.64,-0.000686646},{4701.6,3165.23,0.0633469},{2437.25,7224.06,0.0264893},{2563.15,9017.1,0.291538},{6617.95,7853.57,0.200073},{11008.8,4211.16,-0.00154114},{6005.47,10420.9,0.20298},{7486.67,9651.9,1.52588e-005},{2690.54,12323,0.0372467},{2965.33,13087.1,0.191544},{7278.8,12846.6,0.0838776},{12889.2,8578.86,0.228729},{10114.3,11743.1,9.15527e-005},{10949.8,11517.3,0.14209},{11153.3,11435.2,0.210876},{13775.8,10976.8,0.170441}
 	};
-	antennasBlacklistIndex[] = {4,10,12,15,17};
+	antennasBlacklistIndex[] = {9,14};
 	banks[] = {
-		{16586.6,12834.5,-0.638584},{16545.8,12784.5,-0.485485},{16633.3,12807,-0.635017},{3717.34,13391.2,-0.164862},{3692.49,13158.3,-0.0462074},{3664.31,12826.5,-0.379545},{3536.99,13006.6,-0.508585},{3266.42,12969.9,-0.549738}
+		{5893.41,10253.1,-0.687263},{9507.5,13572.9,0.133848}
 	};
 	garrison[] = {
-		{},{"airport_2","seaport_4","outpost_5","control_52","control_33"},{},{"control_52","control_33"}
+		{},{"airport_1","seaport_5","outpost_10"},{},{"control_20"}
 	};
 	fuelStationTypes[] = {
 		"Land_FuelStation_Feed_F","Land_fs_feed_F","Land_FuelStation_01_pump_malevil_F","Land_FuelStation_01_pump_F","Land_FuelStation_02_pump_F","Land_FuelStation_03_pump_F"
 	};
-	climate = "arid";
+	climate = "tropical";
 };
